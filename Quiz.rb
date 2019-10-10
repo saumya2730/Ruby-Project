@@ -20,7 +20,7 @@ def run_quiz(questions)
           puts question.prompt
           answer = gets.chomp()
           if answer == question.answer
-               score += 1
+               score = score + 1
           end
      end
      puts "You got #{score} out of #{questions.length()}"
