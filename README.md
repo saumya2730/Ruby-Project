@@ -1,5 +1,5 @@
 # Ruby-Project
-CurrentAffairsQuiz
+DatabaseQuiz
 
 
 Steps for the Quiz :
