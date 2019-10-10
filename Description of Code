@@ -27,7 +27,7 @@ Line No. and Description of it :
 
 #23 Incrementing the score if the answer is correct
 
-#26 Prinitng the final score
+#26 Printing the final score
 
 NOTE : Whatever we write in "#{}" is first evaluated and then its value gets printed on the screen.
 
