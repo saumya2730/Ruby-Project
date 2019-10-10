@@ -1,16 +1,33 @@
 
 Line No. and Description of it : 
 
+#02 attr_accessor - Whenever we want to show certain attribute for particular form but we do not want to store it’s value in the database then we use attr_accessor for that model.
+    attr_accessor creates two methods i.e. getter method and setter method :
+     1. getter method - it is used to retrieve value of the attribute
+     2. setter method - it is used to set value to the attribute
 #02 attr_accessor for defining a question (prompt) , answer (answer) to the question.
+
 #03 initialize method to initialize the object.
+
 #11 An array of questions is created and provide questions and answers as per format. [Class_Name.new(prompt - question var, answer - answer)]
+
 #16 Create a method to run the tests which takes only 1 parameter
+
 #17 Create an empty variable which will be used to store all user's answers
+
 #18 Set up a score variable to get the result of the quiz
+
 #19 Loop through all questions 
+
 #20 Printing out the prompt for the current question that we are looping for
+
 #21 Get input from the user
+
 #22 Comparing answer variable to the question's answer 
+
 #23 Incrementing the score if the answer is correct
-#26 Prinitng the final score 
+
+#26 Prinitng the final score
+
+NOTE : Whatever we write in "#{}" is first evaluated and then its value gets printed on the screen.
 
