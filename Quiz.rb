@@ -6,7 +6,8 @@ class Question
      end
 end
 
-p1 = "Which of the following is an Open Source DBMS ?\n (a) MySQL \n (b) Microsoft SQL Server \n (c) Microsoft Access \$p2 = "The Problem caused by independent multivalued dependencies is eliminated in which of the normal form ?\n (a) 3NF $
+p1 = "Which of the following is an Open Source DBMS ?\n (a) MySQL \n (b) Microsoft SQL Server \n (c) Microsoft Access \n (d) Oracle "
+p2 = "The Problem caused by independent multivalued dependencies is eliminated in which of the normal form ?\n (a) 3NF \n (b) BCNF \n (c) 4NF \n (d) 5NF" 
 questions = [
      Question.new(p1, "a"),
      Question.new(p2, "c")
